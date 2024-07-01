@@ -1,0 +1,19 @@
+div.search-container{
+    width: 40%;
+    height: 200px;
+    margin-top: 7rem;
+
+}
+div.search-container h1{
+    color: rgb(54, 54, 54);
+    text-shadow: 5px 2px 19px rgba(0,0,0,0.6);
+}
+
+div.search-container .input-group{
+    margin-top: 2rem;
+} 
+
+div.search-container button{
+    margin-top: 2rem;
+    
+}

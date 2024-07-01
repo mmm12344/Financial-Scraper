@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="static/css/main.css">
+{% endblock stylesheet %}
+
+
+{% block content %}
+
+<div
+    class="container text-center search-container"
+>
+    <h1 class="text-center">Search for Companies!</h1>
+    <div class="input-group input-group-lg">
+        <input type="text" aria-describedby="inputGroup-sizing-defualt" class="form-control" placeholder="Enter 1st Company symbol" id="company1">
+        <input type="text" aria-describedby="inputGroup-sizing-defualt" class="form-control" placeholder="Enter 2nd Company symbol" id="company2">
+    </div>
+    <button type="button" class="btn btn-primary btn-lg" onclick="redirect_to_search()">Search</button>
+</div>
+
+
+<script src="static/js/main.js"></script>
+
+
+{% endblock content %}
